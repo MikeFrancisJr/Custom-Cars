@@ -45,7 +45,7 @@ print("  a. I-4 Entry Engine")
 print("  b. V-6 Performance Engine")
 print("  c. Eco Diesel Engine")
 # Ask the user to enter a, b, or c
-engines = input("Please enter 'a' - 'c': ")
+engine = input("Please enter 'a' - 'c': ")
 print()
 # Display a message asking the user if they want heated seats
 print("Would you like heated seats?")
@@ -58,13 +58,14 @@ print("=======================")
 print("~ Summary ~")
 print()
 # Show the users Car Model Option
-
+print(f"Model Option: {carmodel}")
 # Show the users selection for All Wheel drive
-
+print(f"All Wheel Drive: {driveType}")
 # Show the users chosen car color
-
+print(f"Desired Color: {carColor}")
 # Show the users selection for the deluxe weather package
-
+print(f"Upgrade to Deluxe Weather: {package}")
 # Show the users engine type selection
-
+print(f"Engine Option: {engine}")
 # Show the users selection for heated seats
+print(f"Upgrade to heated seats: {seats}")
